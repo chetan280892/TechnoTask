@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-14T16:35:32 IST" name="Default suite" finished-at="2024-07-14T16:40:51 IST" duration-ms="319544">
+    <groups>
+    </groups>
+    <test started-at="2024-07-14T16:35:32 IST" name="Default test" finished-at="2024-07-14T16:40:51 IST" duration-ms="319544">
+      <class name="test.TechnodomeTask">
+        <test-method is-config="true" signature="setupReports()[pri:0, instance:test.TechnodomeTask@5c00384f]" started-at="2024-07-14T16:35:32 IST" name="setupReports" finished-at="2024-07-14T16:35:34 IST" duration-ms="2137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReports -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.TechnodomeTask@5c00384f]" started-at="2024-07-14T16:35:34 IST" name="launchApplication" finished-at="2024-07-14T16:38:14 IST" duration-ms="159948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="getItemTextAndPriceWithLogin()[pri:0, instance:test.TechnodomeTask@5c00384f]" started-at="2024-07-14T16:38:14 IST" name="getItemTextAndPriceWithLogin" finished-at="2024-07-14T16:39:23 IST" duration-ms="68393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemTextAndPriceWithLogin -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:test.TechnodomeTask@5c00384f]" started-at="2024-07-14T16:39:23 IST" name="getTestResult" finished-at="2024-07-14T16:39:23 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getItemTextAndPriceWithLogin status=SUCCESS method=TechnodomeTask.getItemTextAndPriceWithLogin()[pri:0, instance:test.TechnodomeTask@5c00384f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.TechnodomeTask@5c00384f]" started-at="2024-07-14T16:39:23 IST" name="launchApplication" finished-at="2024-07-14T16:40:39 IST" duration-ms="75964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="getItemTextAndPriceWithoutLogin()[pri:0, instance:test.TechnodomeTask@5c00384f]" started-at="2024-07-14T16:40:39 IST" name="getItemTextAndPriceWithoutLogin" finished-at="2024-07-14T16:40:44 IST" duration-ms="5269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemTextAndPriceWithoutLogin -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:test.TechnodomeTask@5c00384f]" started-at="2024-07-14T16:40:44 IST" name="getTestResult" finished-at="2024-07-14T16:40:44 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getItemTextAndPriceWithoutLogin status=SUCCESS method=TechnodomeTask.getItemTextAndPriceWithoutLogin()[pri:0, instance:test.TechnodomeTask@5c00384f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method is-config="true" signature="publishReports()[pri:0, instance:test.TechnodomeTask@5c00384f]" started-at="2024-07-14T16:40:45 IST" name="publishReports" finished-at="2024-07-14T16:40:51 IST" duration-ms="6638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReports -->
+      </class> <!-- test.TechnodomeTask -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
